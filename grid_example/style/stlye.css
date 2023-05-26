@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+}
+
+.sec1{
+    background-color: rgb(237, 192, 77);
+    color:whitesmoke;
+    grid-column: 2/5;
+}
+
+.sec2{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.sec3{
+    background-color: brown;
+    color: yellow;
+}
+
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+header{
+    background-color: purple;
+    color: red;
+    grid-column: 2/-1;
+}
+
+p{
+    background-color: antiquewhite;
+    color: green;
+    grid-column: 2/4;
+}
+
+footer{
+    background-color: maroon;
+    color: darkblue;
+    grid-column: 1/-1;
+}
+
+img{
+    grid-column: 1/2 ;
+    width:100%;
+}

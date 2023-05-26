@@ -1,0 +1,25 @@
+img {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    background-color: brown;
+    text-align: center;
+    color: aquamarine;
+    font-size: 3em;
+    outline-color: black ;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+body {
+    background-color: pink;
+ }

@@ -1,0 +1,23 @@
+img {
+    float:right
+}
+
+h1{
+    margin:0 auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 3em;
+    background-color: blue;
+    border: 2px;
+    border-color: black;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 2em;
+    text-align: center;
+    background-color: black;
+}
