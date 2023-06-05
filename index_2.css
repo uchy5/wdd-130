@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-columns: 2fr;
+    grid-template-rows: 250px 250px;
+    background-color: purple;
+}
+
+@media screen and (max-width: 786px){
+       body{
+        background-color: orange;
+        grid-template-columns: 1fr 1fr;
+       }
+}
+
+@media screen and (max-width: 602px) {
+    body{
+        background-color: black;
+        grid-template-columns: 1fr;
+    }
+}
+
