@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Quicksand&display=swap');
 
 main{
-    display: grid;
-    grid-template-columns: 11* 1fr;
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+main section{
+    text-align: center;
+}
+
+main section img{
+     box-sizing: border-box;
+}
+
+.logo{
+    width: 80px;
 }
 
 #content{
@@ -111,7 +123,7 @@ header{
     background-color: #780000;
     font-family: Helvetica;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 150px auto;
 }
 
 nav {
@@ -139,7 +151,7 @@ a.hover{
 }
 
 .card-img{
-    border-radius: 10px soild black;
+    border: 10px solid #003049;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
