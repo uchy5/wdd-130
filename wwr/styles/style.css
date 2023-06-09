@@ -123,7 +123,7 @@ header{
     background-color: #780000;
     font-family: Helvetica;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto;
 }
 
 nav {
