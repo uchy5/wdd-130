@@ -35,12 +35,23 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 5fr;
+  grid-template-rows: 8fr;
 }
+
 img {
   display: block;
   margin: 0 auto;
   width: 60%;
 }
+
+.logo{
+  width: 300px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
@@ -105,17 +116,22 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  grid-column: 2/5;
+  grid-row: 1/2;
+  margin-top: -55px;
+  margin-bottom: 75px;
+  margin-right:-175px
 }
 nav  {
   list-style-type: none;
-  display: flex;
+  display:flex;
 
 }
 nav a {
-  padding:1em;
-  min-width: 120px;
+  padding:4em;
+  min-width: 22%;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
 
 }
 nav a:link, nav a:visited {
@@ -175,16 +191,92 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+.Great-White{
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.Great-White-img {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.Hammer-Head{
+  grid-column: 3/6;
+  grid-row: 2/3;
+}
+
+.Hammer-Head-img{
+  grid-column: 3/6;
+  grid-row:3/4;
+}
+
+.Saw-Shark{
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+
+.Saw-Shark-img{
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.Whale-Shark{
+  grid-column: 4/6;
+  grid-row: 4/5;
+}
+
+.Whale-Shark-img{
+  grid-column: 4/6;
+  grid-row: 5/6;
+}
+
+.Black-Tiped-Reef-Shark{
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+
+.Black-Tiped-Reef-Shark-img{
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+
+.Bull-Shark{
+  grid-column: 4/6;
+  grid-row: 6/7;
+}
+
+.Bull-Shark-img{
+  grid-column: 4/6;
+  grid-row: 7/8;
+}
+
+.tiny-logo{
+  width:100%;
+  grid-column: 1/2;
+  grid-row:8/9;
+  margin-left: -100px;
+}
+
+.creator{
+  grid-row:8/9;
+  grid-column: 2/3;
+}
+
 .facebook{
   width: 50%;
+  grid-row: 8/9;
+  grid-column: 3/4;
 }
 
 .instagram{
   width: 50%;
-
+  grid-row: 8/9;
+  grid-column: 4/5;
 }
 
 .twitter{
   width: 50%;
-
+  grid-row: 8/9;
+  grid-column: 5/6;
 }

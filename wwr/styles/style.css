@@ -308,7 +308,7 @@ h4{
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
-        width: 60%;
+        width: 50%;
     }
     #background {
         display: none;
@@ -321,4 +321,40 @@ h4{
     footer {
         margin-top: 25px;
     }
+}
+
+.Missouri{
+    color:#FDF0D5;
+    text-align: center;
+}
+.Missouri-img{
+    margin-left: 40%;
+}
+.Missouri-info{
+    color:#FDF0D5;
+    text-align: center;
+}
+
+.Mississippi{
+    color:#FDF0D5;
+    text-align: center;
+}
+.Mississippi-img{
+    margin-left: 35%;
+}
+.Mississippi-info{
+    color:#FDF0D5;
+    text-align: center;
+}
+
+.Yukon{
+    color:#FDF0D5;
+    text-align: center;
+}
+.Yukon-img{
+    margin-left: 35%;
+}
+.Yukon-info{
+    color:#FDF0D5;
+    text-align: center;
 }
