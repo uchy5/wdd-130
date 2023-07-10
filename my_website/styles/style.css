@@ -52,7 +52,7 @@ img {
   grid-row: 1/2;
   align-self: center;
   margin-top: -125px;
-  margin-left: -20px;
+  margin-left: -70px;
   margin-right: -150px
 }
 
@@ -122,28 +122,30 @@ nav {
   font-size: 1.2em;
   grid-column: 2/6;
   grid-row: 1/2;
+  margin-left: -131px;
   margin-top: -55px;
   margin-bottom: 75px;
   margin-right:-150px
 }
+
 nav  {
   list-style-type: none;
   display:flex;
 
 }
 nav a {
-  padding:4em;
-  min-width: 19%;
+  padding: 1em;
+  min-width: 22%;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
 
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--accent1-color);
+  color: white;
+  background-color:var(--accent1-color);
 }
 
 .sitemap {
