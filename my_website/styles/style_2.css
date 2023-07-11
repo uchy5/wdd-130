@@ -33,7 +33,7 @@ body {
   font-size: 18px;
   text-align: center;
   display: grid;
-  grid-template-columns: 4fr;
+  grid-template-columns: 5fr;
   grid-template-rows: 7fr;
 }
 img {
@@ -105,12 +105,12 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-  grid-column: 2/4;
+  grid-column: 2/6;
   grid-row: 1/2;
-  margin-left: -70px;
+  margin-left: -225px;
   margin-top: -55px;
   margin-bottom: 75px;
-  margin-right:-600px
+  margin-right:-200px
 }
 
 nav  {
@@ -119,8 +119,8 @@ nav  {
 
 }
 nav a {
-  padding:1em;
-  min-width: 22%;
+  padding: 1em;
+  min-width: 23%;
   text-decoration: none;
   padding: 10px;
 
@@ -188,7 +188,7 @@ nav a:hover {
   grid-row: 1/2;
   align-self: center;
   margin-top: -125px;
-  margin-left: -70px;
+  margin-left: -180px;
   margin-right: -150px
 }
 
@@ -196,7 +196,7 @@ nav a:hover {
   grid-column: 1/2;
   grid-row: 2;
   align-self: center;
-  margin-top: -225px;
+  margin-top: -250px
 }
 
 .Great-White:hover{
@@ -208,42 +208,47 @@ nav a:hover {
   grid-row: 2;
   width: 300px;
   align-self: center;
+  padding: 20px;
 }
 
 .Great-White-Title{
   grid-row: 2;
   grid-column: 2/4;
   font-size: 2em;
-  margin-top: -50px
+  margin-top: -50px;
+  font-family: var(--paragraph-font);
 }
 
 .Great-White-Facts{
   grid-row: 2;
   grid-column: 2/4;
   color: var(--secondary-color);
-  margin-top: -25px
+  margin-top: -5px;
+  font-family: var(--paragraph-font);
 }
 
 .Great-White-Q{
   grid-row: 2;
   grid-column: 4/6;
-  margin-top: -90px;
-  margin-right: -318px;
   color: var(--primary-color);
   font-size: 1.25em;
+  margin-top: -75px;
+  font-family: var(--paragraph-font);
 }
 
 .Great-White-Hostile{
   grid-row: 2;
   grid-column: 4/6;
   color: var(--secondary-color);
+  margin-top: -5px;
+  font-family: var(--paragraph-font);
 }
 
 .Hammer-Head{
   grid-column: 1/2;
   grid-row: 3;
   align-self: center;
-  margin-top: -225px;
+  margin-top: -235px;
 }
 
 .Hammer-Head:hover{
@@ -255,41 +260,47 @@ nav a:hover {
   grid-row: 3;
   width: 300px;
   align-self: center;
+  padding: 20px;
 }
 
 .Hammer-Head-Title{
   grid-row: 3;
   grid-column: 2/4;
   font-size: 2em;
+  margin-top:-12px;
+  font-family: var(--paragraph-font);
 }
 
 .Hammer-Head-Facts{
   grid-row: 3;
   grid-column: 2/4;
   color: var(--secondary-color);
-  margin-top: 80px;
+  margin-top: 20px;
+  font-family: var(--paragraph-font);
 }
 
 .Hammer-Head-Q{
   grid-row: 3;
   grid-column: 4/6;
-  margin-top: -10px;
-  margin-right: -318px;
   color: var(--primary-color);
   font-size: 1.25em;
+  margin-top:-50px;
+  font-family: var(--paragraph-font);
 }
 
 .Hammer-Head-Hostile{
   grid-row: 3;
   grid-column: 4/6;
   color: var(--secondary-color);
+  margin-top: 20px;
+  font-family: var(--paragraph-font);
 }
 
 .Saw-Shark{
   grid-column: 1/2;
   grid-row: 4;
   align-self: center;
-  margin-top: -225px;
+  margin-top: -260px;
 }
 
 .Saw-Shark:hover{
@@ -301,43 +312,47 @@ nav a:hover {
   grid-row: 4;
   width: 300px;
   align-self: center;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 .Saw-Shark-Title{
   grid-row: 4;
   grid-column: 2/4;
   font-size: 2em;
-  margin-top: -50px
+  margin-top: -40px;
+  font-family: var(--paragraph-font);
 }
 
 .Saw-Shark-Facts{
   grid-row: 4;
   grid-column: 2/4;
   color: var(--secondary-color);
-  margin-top: -25px
+  margin-top: -5px;
+  font-family: var(--paragraph-font);
 }
 
 .Saw-Shark-Q{
   grid-row: 4;
   grid-column: 4/6;
-  margin-right: -318px;
-  margin-top: -60px;
   color: var(--primary-color);
   font-size: 1.25em;
+  margin-top: -50px;
+  font-family: var(--paragraph-font);
 }
 
 .Saw-Shark-Hostile{
   grid-row: 4;
   grid-column: 4/6;
-  margin-top: -25px;
   color: var(--secondary-color);
+  font-family: var(--paragraph-font);
 }
 
 .Whale-Shark{
   grid-column: 1/2;
   grid-row: 5;
   align-self: center;
-  margin-top: -225px;
+  margin-top: -240px;
 }
 
 .Whale-Shark:hover{
@@ -349,43 +364,45 @@ nav a:hover {
   grid-row: 5;
   width: 300px;
   align-self: center;
+  padding: 20px;
 }
 
 .Whale-Shark-Title{
   grid-row: 5;
   grid-column: 2/4;
   font-size: 2em;
-  margin-top: -50px
+  margin-top: -11px;
+  font-family: var(--paragraph-font);
 }
 
 .Whale-Shark-Facts{
   grid-row: 5;
   grid-column: 2/4;
   color: var(--secondary-color);
-  margin-top: -25px
+  font-family: var(--paragraph-font);
 }
 
 .Whale-Shark-Q{
   grid-row: 5;
   grid-column: 4/6;
-  margin-right: -318px;
-  margin-top: -60px;
   color: var(--primary-color);
   font-size: 1.25em;
+  margin-top: -50px;
+  font-family: var(--paragraph-font);
 }
 
 .Whale-Shark-Hostile{
   grid-row: 5;
   grid-column: 4/6;
-  margin-top: -25px;
   color: var(--secondary-color);
+  font-family: var(--paragraph-font);
 }
 
 .Black-Tiped-Reef-Shark{
   grid-column: 1/2;
   grid-row: 6;
   align-self: center;
-  margin-top: -225px;
+  margin-top: -250px;
 }
 
 .Black-Tiped-Reef-Shark:hover{
@@ -397,43 +414,48 @@ nav a:hover {
   grid-row: 6;
   width: 300px;
   align-self: center;
+  padding: 20px;
+  margin-bottom: -10px;
 }
 
 .Black-Tiped-Reef-Shark-Title{
   grid-row: 6;
   grid-column: 2/4;
   font-size: 2em;
-  margin-top: -50px
+  margin-top: -22px;
+  font-family: var(--paragraph-font);
 }
 
 .Black-Tiped-Reef-Shark-Facts{
   grid-row: 6;
   grid-column: 2/4;
   color: var(--secondary-color);
-  margin-top: -25px
+  margin-top: 13px;
+  font-family: var(--paragraph-font);
 }
 
 .Black-Tiped-Reef-Shark-Q{
   grid-row: 6;
   grid-column: 4/6;
-  margin-right: -318px;
-  margin-top: -60px;
   color: var(--primary-color);
   font-size: 1.25em;
+  margin-top: -50px;
+  font-family: var(--paragraph-font);
 }
 
 .Black-Tiped-Reef-Shark-Hosilte{
   grid-row: 6;
   grid-column: 4/6;
-  margin-top: -25px;
   color: var(--secondary-color);
+  margin-top: 12px;
+  font-family: var(--paragraph-font);
 }
 
 .Bull-Shark{
   grid-column: 1/2;
   grid-row: 7;
   align-self: center;
-  margin-top: -225px;
+  margin-top: -280px;
 }
 
 .Bull-Shark:hover{
@@ -445,36 +467,41 @@ nav a:hover {
   grid-row: 7;
   width: 300px;
   align-self: center;
+  padding: 20px;
+  margin-top:-30px;
 }
 
 .Bull-Shark-Title{
   grid-row: 7;
   grid-column: 2/4;
   font-size: 2em;
-  margin-top: -50px
+  margin-top: -10px;
+  font-family: var(--paragraph-font);
 }
 
 .Bull-Shark-Facts{
   grid-row: 7;
   grid-column: 2/4;
   color: var(--secondary-color);
-  margin-top: -25px
+  margin-top: 28px;
+  font-family: var(--paragraph-font);
 }
 
 .Bull-Shark-Q{
   grid-row: 7;
   grid-column: 4/6;
-  margin-right: -318px;
-  margin-top: -60px;
   color: var(--primary-color);
   font-size: 1.25em;
+  margin-top: -50px;
+  font-family: var(--paragraph-font);
 }
 
 .Bull-Shark-Hostile{
   grid-row: 7;
   grid-column: 4/6;
-  margin-top: -25px;
   color: var(--secondary-color);
+  margin-top: 27px;
+  font-family: var(--paragraph-font);
 }
 
 .tiny-logo{
@@ -488,19 +515,19 @@ nav a:hover {
 
 .creator{
   grid-row: 8;
-  grid-column: 2/3;
+  grid-column: 2/4;
   align-self: center;
-  margin-right: 200px;
-  margin-bottom: -150px;
-  color: black
+  margin-right: -45px;
+  margin-bottom: -149px;
+  color: black;
 }
 
 .facebook{
   width: 80px;
   grid-row: 8;
-  grid-column: 3/4;
+  grid-column: 4/5;
   align-self: center;
-  margin-right: -px;
+  margin-right: -94px;
   margin-bottom: -150px;
 }
 
@@ -509,15 +536,15 @@ nav a:hover {
   grid-row: 8;
   grid-column: 4/5;
   align-self: center;
-  margin-right: -px;
+  margin-right: -174px;
   margin-bottom: -150px;
 }
 
 .twitter{
   width: 80px;
   grid-row: 8;
-  grid-column: 5;
+  grid-column: 5/6;
   align-self: center;
-  margin-right: px;
   margin-bottom: -150px;
+  margin-right: 0px
 }
