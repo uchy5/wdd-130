@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@500&family=Tsukimi+Rounded&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #16425B   ;
+  --secondary-color: #3A7CA5 ;
+  --accent1-color: #780000;
+  --accent2-color: #D9DCD6;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Fjalla One";
+  --paragraph-font: Open Sans , Tsukimi;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #16425B;  /* headlines on a white background */ 
+  --headline-color-on-color:    #D9DCD6; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #16425B; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #D9DCD6; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #16425B  ;
+  --nav-link-color: #16425B;
+  --nav-background-color: #D9DCD6;
+  --nav-hover-link-color: #D9DCD6;
+  --nav-hover-background-color: #16425B;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 6fr;
+  grid-template-rows: 8fr;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+h1, h2, h3, h4, h5, h6, ol {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  grid-column: 2/6;
+  grid-row: 1/2;
+  margin-left: -185px;
+  margin-top: -55px;
+  margin-bottom: 75px;
+  margin-right:-350px
+}
+
+nav  {
+  list-style-type: none;
+  display: flex;
+
+}
+nav a {
+  padding: 1em;
+  min-width: 23%;
+  text-decoration: none;
+  padding: 10px;
+
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: white;
+  background-color: var(--accent1-color);
+}
+.sitemap {
+    display: grid;
+    justify-content: center;
+  
+    grid-template-columns: repeat(6, 15%);
+    grid-template-rows: 3em 1.5em 1.5em 3em;
+    grid-template-areas: ". . home home . ."
+      ". . . top . ."
+      ". left left right right ."
+      "page2 page2 . . page3 page3";
+  }
+.sitemap > div {
+
+  text-align: center;
+
+}
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+
+.logo{
+  width: 300px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  margin-top: -125px;
+  margin-left: -180px;
+  margin-right: -150px
+}
+
+.Great-White{
+    grid-column: 2/2;
+    grid-row: 2/4;
+    color: var(--primary-color);
+    font-size: 2em;
+    align-self: center;
+}
+
+.Great-White:hover{
+    color: var(--accent1-color);
+}
+
+.Great-White-img{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    width: 300px;
+    align-self: center;
+}
+
+.Location-Great-White{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: var(--primary-color);
+    font-size: 2em;
+    align-self: center;
+}
+
+.Great-White-F{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Great-White-F-img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 150px;
+    align-items: center;
+}
+
+.Great-White-C{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Great-White-C-img{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 150px;
+    align-items: center;
+}
+
+.Great-White-G{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Great-White-G-img{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 150px;
+    align-items: center;
+}
+
+.Hammer-Head{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    color: var(--primary-color);
+    font-size: 2em;
+    align-self: center;
+}
+
+.Hammer-Head:hover{
+    color: var(--accent1-color);
+}
+
+.Hammer-Head-img{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    width: 300px;
+    align-self: center;
+}
+
+.Location-Hammer-Head{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    color: var(--primary-color);
+    font-size: 2em;
+    align-self: center;
+}
+
+.Hammer-Head-F{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Hammer-Head-F-img{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    width: 150px;
+    align-items: center;
+}
+
+.Hammer-Head-C{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Hammer-Head-C-img{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    width: 150px;
+    align-items: center;
+}
+
+.Hammer-Head-G{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Hammer-Head-G-img{
+    grid-column: 5/6;
+    grid-row: 3/4;
+    width: 150px;
+    align-items: center;
+}
+
+.Saw-Shark{
+    grid-column: 1/2;
+    grid-row: 4/6;
+    color: var(--primary-color);
+    font-size: 2em;
+    align-self: center;
+}
+
+.Saw-Shark:hover{
+    color: var(--accent1-color);
+}
+
+.Saw-Shark-img{
+    grid-column: 1/2;
+    grid-row: 4/6;
+    width: 300px;
+    align-self: center;
+}
+
+.Location-Saw-Shark{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    color: var(--primary-color);
+    font-size: 2em;
+    align-self: center;
+}
+
+.Saw-Shark-F{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Saw-Shark-F-img{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 150px;
+    align-items: center;
+}
+
+.Saw-Sharke-B{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    color: var(--primary-color);
+    font-size: .75em;
+    align-self: center;
+}
+
+.Saw-Shark-B-img{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    width: 150px;
+    align-items: center;
+}
+
+.Whale-Shark{
+    grid-column: 4/5;
+    grid-row: 4/6;
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+.Whale-Shark:hover{
+    color: var(--accent1-color);
+}
+
+.Whale-Shark-img{
+    grid-column: 4/5;
+    grid-row: 4/6;
+    width: 300px;
+    align-self: center;
+}
+
+.Location-Whale-Shark{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+.Whale-Shark-N{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Whale-Shark-N-img{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    width: 150px;
+    align-items: center;
+}
+
+.Whale-Shark-G{
+    grid-column: 6/7;
+    grid-row: 4/5;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Whale-Shark-G-img{
+    grid-column: 6/7;
+    grid-row: 4/5;
+    width: 150px;
+    align-items: center;
+}
+
+.Black-Tiped-Reef-Shark{
+    grid-column: 1/2;
+    grid-row: 6/8;
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+.Black-Tiped-Reef-Shark:hover{
+    color: var(--accent1-color);
+}
+
+.Black-Tiped-Reef-Shark-img{
+    grid-column: 1/2;
+    grid-row: 6/8;
+    width: 300px;
+    align-self: center;
+}
+
+.Location-Black-Tiped-Reef-Shark{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+.Black-Tiped-Reef-Shark-F{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Black-Tiped-Reef-Shark-F-img{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    width: 150px;
+    align-items: center;
+}
+
+.Black-Tiped-Reef-Shark-V{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Black-Tiped-Reef-Shark-V-img{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    width: 150px;
+    align-items: center;
+}
+
+.Bull-Shark{
+    grid-column: 4/5;
+    grid-row: 6/8;
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+.Bull-Shark:hover{
+    color: var(--accent1-color);
+}
+
+.Bull-Shark-img{
+    grid-column: 4/5;
+    grid-row: 6/8;
+    width: 300px;
+    align-self: center;
+}
+
+.Location-Bull-Shark{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    color: var(--primary-color);
+    font-size: 2em;
+    text-align: center;
+}
+
+.Bull-Shark-E{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Bull-Shark-E-img{
+    grid-column: 5/6;
+    grid-row: 6/7;
+    width: 150px;
+    align-items: center;
+}
+
+.Bull-Shark-G{
+    grid-column: 6/7;
+    grid-row: 6/7;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Bull-Shark-G-img{
+    grid-column: 6/7;
+    grid-row: 6/7;
+    width: 150px;
+    align-items: center;
+}
+
+.Bull-Shark-T{
+    grid-column: 5/6;
+    grid-row: 7/8;
+    color: var(--primary-color);
+    font-size: .75em;
+    text-align: center;
+}
+
+.Bull-Shark-T-img{
+    grid-column: 5/6;
+    grid-row: 7/8;
+    width: 150px;
+    align-items: center;
+}
+
+.tiny-logo{
+  width: 200px;
+  grid-column: 1/2;
+  grid-row: 8/9;
+  margin-left: -50px;
+  align-self: center;
+  margin-bottom: -150px;
+}
+
+.creator{
+  grid-row: 8;
+  grid-column: 2/4;
+  align-self: center;
+  margin-right: -45px;
+  margin-bottom: -149px;
+  color: black;
+}
+
+.facebook{
+  width: 80px;
+  grid-row: 8;
+  grid-column: 4/5;
+  align-self: center;
+  margin-right: -94px;
+  margin-bottom: -150px;
+}
+
+.instagram{
+  width: 80px;
+  grid-row: 8;
+  grid-column: 4/5;
+  align-self: center;
+  margin-right: -174px;
+  margin-bottom: -150px;
+}
+
+.twitter{
+  width: 80px;
+  grid-row: 8;
+  grid-column: 5/6;
+  align-self: center;
+  margin-bottom: -150px;
+  margin-right: 0px
+}
