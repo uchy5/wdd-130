@@ -107,7 +107,7 @@ nav {
   font-size: 1.2em;
   grid-column: 2/6;
   grid-row: 1/2;
-  margin-left: -225px;
+  margin-left: -115px;
   margin-top: -55px;
   margin-bottom: 75px;
   margin-right:-200px
@@ -188,7 +188,7 @@ nav a:hover {
   grid-row: 1/2;
   align-self: center;
   margin-top: -125px;
-  margin-left: -180px;
+  margin-left: -70px;
   margin-right: -150px
 }
 
@@ -517,34 +517,34 @@ nav a:hover {
   grid-row: 8;
   grid-column: 2/4;
   align-self: center;
-  margin-right: -45px;
+  margin-right: -75px;
   margin-bottom: -149px;
   color: black;
 }
 
 .facebook{
   width: 80px;
-  grid-row: 8;
-  grid-column: 4/5;
+  grid-row: 8/9;
+  grid-column: 3/4;
   align-self: center;
-  margin-right: -94px;
   margin-bottom: -150px;
+  margin-right: -333px;
 }
 
 .instagram{
   width: 80px;
-  grid-row: 8;
+  grid-row: 8/9;
   grid-column: 4/5;
   align-self: center;
-  margin-right: -174px;
   margin-bottom: -150px;
+  margin-right: -206px;
 }
 
 .twitter{
   width: 80px;
-  grid-row: 8;
+  grid-row: 8/9;
   grid-column: 5/6;
   align-self: center;
   margin-bottom: -150px;
-  margin-right: 0px
+  margin-right: 0px;
 }

@@ -107,10 +107,10 @@ nav {
   font-size: 1.2em;
   grid-column: 2/6;
   grid-row: 1/2;
-  margin-left: -185px;
+  margin-left: -75px;
   margin-top: -55px;
   margin-bottom: 75px;
-  margin-right:-350px
+  margin-right: -310px;
 }
 
 nav  {
@@ -187,16 +187,17 @@ nav a:hover {
   grid-row: 1/2;
   align-self: center;
   margin-top: -125px;
-  margin-left: -180px;
+  margin-left: -70px;
   margin-right: -150px
 }
 
 .Great-White{
-    grid-column: 2/2;
-    grid-row: 2/4;
+    grid-column: 1;
+    grid-row: 2;
     color: var(--primary-color);
     font-size: 2em;
     align-self: center;
+    margin-top: -125px;
 }
 
 .Great-White:hover{
@@ -208,6 +209,7 @@ nav a:hover {
     grid-row: 2/4;
     width: 300px;
     align-self: center;
+    margin-top: -259px;
 }
 
 .Location-Great-White{
@@ -216,6 +218,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     align-self: center;
+    margin-top: -125px;
 }
 
 .Great-White-F{
@@ -224,6 +227,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top:  -50px
 }
 
 .Great-White-F-img{
@@ -231,6 +235,7 @@ nav a:hover {
     grid-row: 2/3;
     width: 150px;
     align-items: center;
+    margin-top: 100px;
 }
 
 .Great-White-C{
@@ -239,6 +244,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -50px;
 }
 
 .Great-White-C-img{
@@ -246,6 +252,7 @@ nav a:hover {
     grid-row: 2/3;
     width: 150px;
     align-items: center;
+    margin-top: 100px;
 }
 
 .Great-White-G{
@@ -254,6 +261,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -300px;
 }
 
 .Great-White-G-img{
@@ -261,6 +269,7 @@ nav a:hover {
     grid-row: 3/4;
     width: 150px;
     align-items: center;
+    margin-top: 35px;
 }
 
 .Hammer-Head{
@@ -269,6 +278,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     align-self: center;
+    margin-top: -475px;
 }
 
 .Hammer-Head:hover{
@@ -280,6 +290,7 @@ nav a:hover {
     grid-row: 2/4;
     width: 300px;
     align-self: center;
+    margin-top: -251px;
 }
 
 .Location-Hammer-Head{
@@ -288,6 +299,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     align-self: center;
+    margin-top: -125px;
 }
 
 .Hammer-Head-F{
@@ -296,6 +308,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -50px;
 }
 
 .Hammer-Head-F-img{
@@ -303,6 +316,7 @@ nav a:hover {
     grid-row: 2/3;
     width: 150px;
     align-items: center;
+    margin-top: 100px;
 }
 
 .Hammer-Head-C{
@@ -311,6 +325,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -50px;
 }
 
 .Hammer-Head-C-img{
@@ -318,6 +333,7 @@ nav a:hover {
     grid-row: 2/3;
     width: 150px;
     align-items: center;
+    margin-top:  100px;
 }
 
 .Hammer-Head-G{
@@ -326,6 +342,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -300px;
 }
 
 .Hammer-Head-G-img{
@@ -333,6 +350,8 @@ nav a:hover {
     grid-row: 3/4;
     width: 150px;
     align-items: center;
+    margin-top: 40px;
+    margin-bottom: 200px;
 }
 
 .Saw-Shark{
@@ -341,6 +360,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     align-self: center;
+    margin-top: -340px;
 }
 
 .Saw-Shark:hover{
@@ -352,6 +372,7 @@ nav a:hover {
     grid-row: 4/6;
     width: 300px;
     align-self: center;
+    margin-top: -100px;
 }
 
 .Location-Saw-Shark{
@@ -360,6 +381,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     align-self: center;
+    margin-top: -320px;
 }
 
 .Saw-Shark-F{
@@ -368,6 +390,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -250px;
 }
 
 .Saw-Shark-F-img{
@@ -375,14 +398,16 @@ nav a:hover {
     grid-row: 4/5;
     width: 150px;
     align-items: center;
+    margin-top: -70px;
 }
 
-.Saw-Sharke-B{
+.Saw-Shark-B{
     grid-column: 3/4;
     grid-row: 4/5;
     color: var(--primary-color);
     font-size: .75em;
     align-self: center;
+    margin-top: -250px;
 }
 
 .Saw-Shark-B-img{
@@ -390,6 +415,7 @@ nav a:hover {
     grid-row: 4/5;
     width: 150px;
     align-items: center;
+    margin-top: -70px;
 }
 
 .Whale-Shark{
@@ -398,6 +424,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     text-align: center;
+    margin-top: -140px;
 }
 
 .Whale-Shark:hover{
@@ -409,6 +436,7 @@ nav a:hover {
     grid-row: 4/6;
     width: 300px;
     align-self: center;
+    margin-top: -90px;
 }
 
 .Location-Whale-Shark{
@@ -417,6 +445,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     text-align: center;
+    margin-top: -140px
 }
 
 .Whale-Shark-N{
@@ -425,6 +454,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
+    margin-top: -80px;
 }
 
 .Whale-Shark-N-img{
@@ -432,6 +462,7 @@ nav a:hover {
     grid-row: 4/5;
     width: 150px;
     align-items: center;
+    margin-top: -60px;
 }
 
 .Whale-Shark-G{
@@ -440,13 +471,15 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
-}
+    margin-top: -80px;
+  }
 
 .Whale-Shark-G-img{
     grid-column: 6/7;
     grid-row: 4/5;
     width: 150px;
     align-items: center;
+    margin-top: -60px;
 }
 
 .Black-Tiped-Reef-Shark{
@@ -455,6 +488,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     text-align: center;
+    margin-top: 25px;
 }
 
 .Black-Tiped-Reef-Shark:hover{
@@ -466,6 +500,7 @@ nav a:hover {
     grid-row: 6/8;
     width: 300px;
     align-self: center;
+    margin-top: 40px;
 }
 
 .Location-Black-Tiped-Reef-Shark{
@@ -474,6 +509,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: 2em;
     text-align: center;
+    margin-top: 25px;
 }
 
 .Black-Tiped-Reef-Shark-F{
@@ -482,6 +518,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
+    margin-top: 125px;
 }
 
 .Black-Tiped-Reef-Shark-F-img{
@@ -489,6 +526,7 @@ nav a:hover {
     grid-row: 6/7;
     width: 150px;
     align-items: center;
+    margin-top: 150px;
 }
 
 .Black-Tiped-Reef-Shark-V{
@@ -497,6 +535,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
+    margin-top: 125px;
 }
 
 .Black-Tiped-Reef-Shark-V-img{
@@ -504,6 +543,7 @@ nav a:hover {
     grid-row: 6/7;
     width: 150px;
     align-items: center;
+    margin-top: 150px;
 }
 
 .Bull-Shark{
@@ -539,13 +579,16 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
+    margin-top: 100px
 }
 
 .Bull-Shark-E-img{
     grid-column: 5/6;
     grid-row: 6/7;
     width: 150px;
+    height: 150px;
     align-items: center;
+    margin-top: 125px
 }
 
 .Bull-Shark-G{
@@ -554,6 +597,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
+    margin-top: 100px;
 }
 
 .Bull-Shark-G-img{
@@ -561,6 +605,7 @@ nav a:hover {
     grid-row: 6/7;
     width: 150px;
     align-items: center;
+    margin-top: 125px;
 }
 
 .Bull-Shark-T{
@@ -569,6 +614,7 @@ nav a:hover {
     color: var(--primary-color);
     font-size: .75em;
     text-align: center;
+    margin-top: -10px;
 }
 
 .Bull-Shark-T-img{
@@ -576,6 +622,7 @@ nav a:hover {
     grid-row: 7/8;
     width: 150px;
     align-items: center;
+    margin-top: 15px;
 }
 
 .tiny-logo{
@@ -585,40 +632,46 @@ nav a:hover {
   margin-left: -50px;
   align-self: center;
   margin-bottom: -150px;
+  margin-top: 3px;
 }
 
 .creator{
-  grid-row: 8;
+  grid-row: 8/9;
   grid-column: 2/4;
   align-self: center;
-  margin-right: -45px;
-  margin-bottom: -149px;
+  margin-right: 200px;
+  margin-bottom: -150px;
   color: black;
+  margin-top: 23px;
+  margin-right: -185px
 }
 
 .facebook{
   width: 80px;
-  grid-row: 8;
+  grid-row: 8/9;
   grid-column: 4/5;
   align-self: center;
-  margin-right: -94px;
   margin-bottom: -150px;
+  margin-top: 3px;
+  margin-right: -140px;
 }
 
 .instagram{
   width: 80px;
-  grid-row: 8;
-  grid-column: 4/5;
+  grid-row: 8/9;
+  grid-column: 5/6;
   align-self: center;
-  margin-right: -174px;
   margin-bottom: -150px;
+  margin-top: 3px;
+  margin-right: -70px
 }
 
 .twitter{
   width: 80px;
-  grid-row: 8;
-  grid-column: 5/6;
+  grid-row: 8/9;
+  grid-column: 6/7;
   align-self: center;
   margin-bottom: -150px;
-  margin-right: 0px
+  margin-right: -0px;
+  margin-top: 3px;
 }
